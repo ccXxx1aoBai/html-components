@@ -1,0 +1,65 @@
+.l-input{
+  width: 180px;
+  height: 26px;
+  outline: none;
+  border: 1px solid #dbd6d6;
+  padding: 5px 10px;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
+.l-input:focus{
+  border: 1px solid #2a86db;
+}
+.clear{
+  width: 200px;
+  height: 36px;
+  outline: none;
+  border: 1px solid #dbd6d6;
+  border-radius: 5px;
+  display: flex;
+}
+.clear>.l-input{
+  width: 150px;
+  height: 26px;
+  display: inline-block;
+  border: none;
+  outline: none;
+}
+.clear>i{
+  width: 30px;
+  height: 20px;
+  margin: 8px 5px;
+  text-align: center;
+  cursor: pointer;
+}
+.clear:focus-within {
+  border: 1px solid #2a86db;
+}
+.password{
+  width: 200px;
+  height: 36px;
+  outline: none;
+  border: 1px solid #dbd6d6;
+  border-radius: 5px;
+  display: flex;
+}
+.password>.l-input{
+  width: 150px;
+  height: 26px;
+  display: inline-block;
+  border: none !important;
+  outline: none;
+}
+.password>i{
+  width: 30px;
+  height: 20px;
+  margin: 8px 5px;
+  text-align: center;
+  cursor: pointer;
+}
+.password:focus-within{
+  border: 1px solid #2a86db;
+}

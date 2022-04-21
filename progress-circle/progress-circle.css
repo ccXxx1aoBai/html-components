@@ -1,0 +1,54 @@
+body{
+  background-color: rgb(27, 188, 155);
+}
+.progress-circle{
+  width: 200px;
+  height: 200px;
+  background-color: #ffffff;
+  position: relative;
+  box-sizing: border-box;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+.border{
+  background-color: #6ED4BF;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  clip:rect(0, 100px, auto, 0);
+  position: absolute;
+}
+.wrapper{
+  background-color: #6ED4BF;
+  width: 200px;
+  height: 200px;
+  position: absolute;
+  border-radius: 50%;
+  clip: rect(0, auto, auto, 100px);
+}
+.mask{
+  width: 180px;
+  height: 180px;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  background-color: rgb(27, 188, 155);
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+.mask>span{
+  display: block;
+  width: 100px;
+  height: 44px;
+  text-align: center;
+  font-size: 44px;
+  color: white;
+  line-height: 44px;
+  margin: 68px 40px;
+}

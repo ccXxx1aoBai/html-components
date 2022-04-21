@@ -1,0 +1,81 @@
+.progress:nth-child(1){
+  margin-top: 200px;
+}
+.progress{
+  position: relative;
+  width: 500px;
+  height: 16px;
+  margin: 10px 200px;
+  background-color: rgb(235, 233, 233);
+  border: 1px solid #f3f3f3;
+  border-radius: 15px;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  -ms-border-radius: 15px;
+  -o-border-radius: 15px;
+}
+.progress .progress-bg{
+  width: 50%;
+  height: 100%;
+  background-color: #5289db;
+  border-radius: 15px;
+}
+.progress .animation{
+  position: absolute;
+  width: 30px;
+  height: 100%;
+  top: 0;
+  background: linear-gradient(to left,#c5d7f0, transparent);
+  animation: linears 2s infinite;
+  -webkit-animation: linears 2s infinite;
+  border-radius: 5px 15px 15px 5px;
+  -webkit-border-radius: 5px 15px 15px 5px;
+  -moz-border-radius: 5px 15px 15px 5px;
+  -ms-border-radius: 5px 15px 15px 5px;
+  -o-border-radius: 5px 15px 15px 5px;
+}
+.progress .tips{
+  display: block;
+  position: absolute;
+  right: 5px;
+  top: 0;
+  line-height: 16px;
+  color: #000;
+  font-size: 10px;
+}
+.progress .warning{
+  background-color: #ff0000;
+}
+.progress .success{
+  background-color: #08bb2f;
+}
+/* @keyframes linear1{
+  from {
+    opacity: .7;
+    left: 2%;
+  }
+    to {
+      opacity: .1;
+      left: calc(30% - 30px);
+  }
+}
+@keyframes linear2{
+  from {
+    opacity: .7;
+    left: 2%;
+  }
+    to {
+      opacity: .1;
+      left: calc(40% - 30px);
+  }
+}
+@keyframes linear3{
+  from {
+    opacity: .7;
+    left: 2%;
+  }
+    to {
+      opacity: .1;
+      left: calc(50% - 30px);
+  }
+} */

@@ -1,0 +1,102 @@
+body{
+  margin: 0;
+  padding: 0;
+}
+.dialog{
+  display: none;
+  opacity: 0;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: -9;
+  background-color: transparent;
+}
+.dialog-box{
+  position: absolute;
+  top: calc(50% - 150px);
+  left: calc(50% - 200px);
+  width: 400px;
+  height: 150px;
+  background-color: #ffffff;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  /* fadeIn == 模态框从上往下进入 */
+  /* fadeOut == 模态框从下往上进入 */
+  animation: fadeIn .5s forwards;
+  -webkit-animation: fadeIn .5s forwards;
+}
+.dialog-box .title{
+  width: 380px;
+  height: 25px;
+  margin: 10px 15px;
+  user-select: none;
+}
+.dialog-box .title h3{
+  line-height: 25px;
+  padding: 0;
+  margin: 0;
+}
+.dialog-box .title h3 i{
+  cursor: pointer;
+  position: absolute;
+  right: 15px;
+}
+.dialog-box .title h3 i:hover{
+  color: #3175e2;
+}
+.dialog-box .content{
+  width: 380px;
+  margin: 15px;
+}
+.dialog-box .content p{
+  font-size: 14px;
+}
+.dialog-box .footer{
+  height: 40px;
+  position: absolute;
+  bottom: 0;
+  right: 15px;
+}
+.dialog-box .footer button{
+  cursor: pointer;
+  width: 60px;
+  height: 34px;
+  margin: auto;
+  border: none;
+  background-color: #3c7add;
+  color: #ffffff;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
+.dialog-box .footer button:hover{
+  background-color: #6b98df;
+}
+.dialog-show{
+  background-color: rgba(0, 0, 0, .5);
+  display: block;
+  opacity: 1;
+  animation: animate 1s forwards;
+  -webkit-animation: animate 1s forwards;
+}
+@keyframes fadeIn{
+  from {
+    top: 10%;
+  }
+  to {
+    top: calc(50% - 150px);
+  }
+}
+@keyframes fadeOut{
+  from {
+    top: 75%;
+  }
+  to {
+    top: calc(50% - 150px);
+  }
+}

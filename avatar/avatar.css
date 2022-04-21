@@ -1,0 +1,26 @@
+body>div{
+  float: left;
+  margin: 100px;
+}
+.l-avatar{
+  width: 48px;
+  height: 48px;
+}
+.circle{
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+.l-avatar img{
+  width: 100%;
+  height: 100%;
+}
+.square{
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}

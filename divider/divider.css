@@ -1,0 +1,32 @@
+.l-divider{
+  width: 200px;
+  /* 调整粗细 */
+  height: 1px;
+  background-color: #c5c6c5;
+}
+.font{
+  margin: 0;
+}
+.l-divider-left{
+  width: 100px;
+  height: 1px;
+  background-color: #c5c6c5;
+  display: inline-block;
+}
+.l-divider-right{
+  width: 100px;
+  height: 1px;
+  background-color: #c5c6c5;
+  display: inline-block;
+}
+.font span{
+  vertical-align: middle;
+  font-size: 12px;
+  padding: 5px;
+}
+.l-divider-vertical{
+  width: 1px;
+  /* 调整高度 */
+  height: 25px; 
+  background-color: #c5c6c5;
+}

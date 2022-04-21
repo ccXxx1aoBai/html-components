@@ -1,0 +1,24 @@
+.l-radio{
+  display: inline-block;
+  height: 20px;
+  width: 80px;
+  cursor: pointer;
+}
+.l-radio  input{
+  cursor: pointer;
+}
+.l-radio span{
+  line-height: 20px;
+}
+.l-radio .l-radio-input{
+  vertical-align: middle;
+}
+.l-radio .l-radio-label{
+  font-size: 14px;
+  line-height: 20px;
+  vertical-align: middle;
+  user-select: none;
+}
+.l-radio.is-checked{
+  color: #2a86db;
+}

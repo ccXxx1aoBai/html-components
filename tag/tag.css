@@ -1,0 +1,16 @@
+.l-tag{
+  width: 60px;
+  height: 34px;
+  background-color: #2a86db;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  text-align: center;
+}
+.l-tag-label{
+  line-height: 34px;
+  font-size: 14px;
+  color: #ffffff;
+}

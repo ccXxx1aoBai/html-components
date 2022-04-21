@@ -1,0 +1,131 @@
+div{
+  width: 1000px;
+  height: 60px;
+  margin: 40px;
+}
+.l-button{
+  box-sizing: border-box;
+  width: 100px;
+  height: 40px;
+  border: 1px solid #e6e0e0;
+  background-color: #ffffff;
+  border-radius: 5px;
+  font-size: 14px;
+  cursor: pointer;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
+.l-button:hover{
+  color: #2a86db;
+}
+.l-button.default:hover{
+  color: #2a86db;
+  border: 1px solid #2a86db;
+}
+.primary{
+  background-color: #2a86db;
+  color: #ffffff !important;
+}
+.primary:hover{
+  background-color: #589bda;
+}
+.success{
+  background-color: #12b90c;
+  color: #ffffff !important;
+}
+.success:hover{
+  background-color: #49ca44;
+}
+.info{
+  background-color: #909399;
+  color: #ffffff !important;
+}
+.info:hover{
+  background-color: #9ca1aa;
+}
+.warning{
+  background-color: #e6a23c;
+  color: #ffffff !important;
+}
+.warning:hover{
+  background-color: #dfb06b;
+}
+.error{
+  background-color: #f56c6c;
+  color: #ffffff !important;
+}
+.error:hover{
+  background-color: #fc8282;
+}
+.is-plain{
+  background-color: #ffffff;
+}
+.is-plain:hover{
+  color: #2a86db;
+  border: 1px solid #2a86db;
+}
+.is-plain.default:hover{
+  color: #2a86db;
+  border: 1px solid #2a86db;
+}
+.is-plain.primary{
+  color: #2a86db !important;
+  border: 1px solid #5ca1e2;
+  background-color: rgba(66, 154, 206, 0.15);
+}
+.is-plain.primary:hover{
+  background-color: #2a86db;
+  color: #ffffff !important;
+}
+.is-plain.success{
+  color: #12b90c !important;
+  border: 1px solid #49ca44;
+  background-color: rgba(6, 199, 38, .15);
+}
+.is-plain.success:hover{
+  background-color: #12b90c;
+  color: #ffffff !important;
+}
+.is-plain.info{
+  color: #909399 !important;
+  border: 1px solid #9ca1aa;
+  background-color: rgba(154, 158, 154, 0.15);
+}
+.is-plain.info:hover{
+  background-color: #909399;
+  color: #ffffff !important;
+}
+.is-plain.warning{
+  color: #e6a23c !important;
+  border: 1px solid #dfb06b;
+  background-color: rgba(212, 154, 29, 0.15);
+}
+.is-plain.warning:hover{
+  background-color: #e6a23c;
+  color: #ffffff !important;
+}
+.is-plain.error{
+  color: #f56c6c !important;
+  border: 1px solid #fc8282;
+  background-color: rgba(226, 77, 57, 0.15);
+}
+.is-plain.error:hover{
+  background-color: #f56c6c;
+  color: #ffffff !important;
+}
+.circle{
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+}
+.text-button{
+  border: none;
+  color: #2a86db;
+}
+.text-button:hover{
+  color: #75a8d8;
+}

@@ -1,0 +1,55 @@
+.l-switch{
+  position: relative;
+  width: 60px;
+  height: 24px;
+  background-color: #d4d2d2;
+  cursor: pointer;
+  border-radius: 15px;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  -ms-border-radius: 15px;
+  -o-border-radius: 15px;
+}
+.l-switch-button{
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  top: 2px;
+  left: 2px;
+  background-color: #ffffff;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+.off{
+  background-color: #d4d2d2;
+}
+.off>.l-switch-button{
+  animation: turnOff .5s forwards;
+  -webkit-animation: turnOff .5s forwards;
+}
+.on{
+  background-color: #12b90c;
+}
+.on>.l-switch-button{
+  animation: turnOn .5s forwards;
+  -webkit-animation: turnOn .5s forwards;
+}
+@keyframes turnOn{
+  from {
+    left: 2px;
+  }
+  to {
+    left: 38px;
+  }
+}
+@keyframes turnOff{
+  from {
+    left: 38px;
+  }
+  to {
+    left: 2px;
+  }
+}

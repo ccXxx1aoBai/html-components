@@ -1,0 +1,58 @@
+.l-inputNumber{
+  width: 180px;
+  height: 40px;
+  border: 1px solid #c5c1c0;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  cursor: pointer;
+}
+.l-reduce{
+  width: 34px;
+  height: 40px;
+  display: inline-block;
+  text-align: center;
+  font-size: 20px;
+  user-select: none;
+  cursor: no-drop;
+}
+.l-inputNumber-input{
+  width: 100px;
+  display: inline-block;
+  border-top: none;
+  border-bottom: none;
+  border-left: 1px solid #c5c1c0;
+  border-right: 1px solid #c5c1c0;
+}
+.l-inputNumber-input input{
+  width: 100px;
+  height: 40px;
+  box-sizing: border-box;
+  padding: 10px 0;
+  text-align: center;
+  border: none;
+  outline: none;
+}
+.l-add{
+  width: 34px;
+  height: 40px;
+  display: inline-block;
+  text-align: center;
+  font-size: 20px;
+  box-sizing: border-box;
+  user-select: none;
+}
+.l-reduce:hover{
+  color: #2a86db;
+}
+.l-add:hover{
+  color: #2a86db;
+}
+.l-inputNumber:hover{
+  border: 1px solid #2a86db;
+}
+.l-inputNumber:focus-within{
+  border: 1px solid #2a86db;
+}

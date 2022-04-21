@@ -1,0 +1,25 @@
+.l-checkbox{
+  display: inline-block;
+  height: 20px;
+  width: 80px;
+  cursor: pointer;
+  user-select: none;
+}
+.l-checkbox input{
+  cursor: pointer;
+}
+.l-checkbox .l-checkbox-input{
+  vertical-align: middle;
+}
+.l-checkbox span{
+  line-height: 20px;
+}
+.l-checkbox .l-checkbox-label{
+  font-size: 14px;
+  line-height: 20px;
+  vertical-align: middle;
+  user-select: none;
+}
+.l-checkbox.is-checked{
+  color: #2a86db;
+}

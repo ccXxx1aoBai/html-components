@@ -1,0 +1,29 @@
+body{
+  margin: 0;
+  padding: 0;
+}
+.content{
+  background: linear-gradient(to bottom, #065fb3, #14d814, #76a0df);
+}
+.l-backtop{
+  position: fixed;
+  bottom: 100px;
+  right: 50px;
+  width: 40px;
+  height: 40px;
+  background-color: rgba(76, 179, 226, 0.15);
+  text-align: center;
+  border-radius: 12px;
+  -webkit-border-radius: 12px;
+  -moz-border-radius: 12px;
+  -ms-border-radius: 12px;
+  -o-border-radius: 12px;
+  box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, .3);
+  cursor: pointer;
+  display: none;
+}
+.l-backtop-label{
+  font-size: 24px;
+  line-height: 40px;
+  color: #2a86db;
+}
